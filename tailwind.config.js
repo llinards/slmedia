@@ -9,10 +9,8 @@ export default {
         './resources/views/**/*.blade.php',
     ],
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
-            },
+        fontFamily: {
+            sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
         },
     },
     plugins: [forms],

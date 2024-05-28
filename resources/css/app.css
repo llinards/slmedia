@@ -15,26 +15,26 @@
     }
 }
 
-.hero-content::before,
-.hero-content::after {
+.diagnole-borders::before,
+.diagnole-borders::after {
     content: "";
     position: absolute;
     height: 40px;
     width: 40px;
 }
 
-.hero-content::before {
+.diagnole-borders::before {
     top: 0;
     left: 0;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
 }
 
-.hero-content::after {
+.diagnole-borders::after {
     bottom: 0;
     right: 0;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .hero-title h1 {
@@ -67,8 +67,8 @@
         border-right: 3px solid black;
     }
 
-    .hero-content::after,
-    .hero-content::before {
+    .diagnole-borders::after,
+    .diagnole-borders::before {
         height: 15px;
         width: 15px;
     }
