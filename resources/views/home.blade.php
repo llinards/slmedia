@@ -7,9 +7,9 @@
                 </h1>
             </div>
             <div class="hero-cta">
-                <x-primary-link :class="'mt-5 md:mt-10 uppercase'" href="#requirements">
+                <x-primary-button :type="'link'" :class="'mt-5 md:mt-10 uppercase'" href="#requirements">
                     Sākam
-                </x-primary-link>
+                </x-primary-button>
             </div>
         </div>
     </section>
