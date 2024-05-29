@@ -40,22 +40,24 @@
 .hero-title h1 {
     border-right: 5px solid black;
     margin: 0 auto;
-    animation: typing 2.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    animation:
+        typing 2.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
     }
     to {
-        width: 100%
+        width: 100%;
     }
 }
 
 @keyframes blink-caret {
-    from, to {
-        border-color: transparent
+    from,
+    to {
+        border-color: transparent;
     }
     50% {
         border-color: black;
